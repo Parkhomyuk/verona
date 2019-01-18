@@ -25,7 +25,7 @@ class Header extends Component {
     handleScroll = () => {
         if(window.scrollY > 0){
             this.setState({
-                headerShow: true
+                headerShow: true 
             })
         } else {
             this.setState({
